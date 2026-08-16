@@ -1,0 +1,26 @@
+name: SW Setup Bot
+
+on:
+  workflow_dispatch:
+
+jobs:
+  bot:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Pobierz repozytorium
+        uses: actions/checkout@v4
+
+      - name: Uruchom Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Instalacja zależności
+        run: npm install
+
+      - name: Uruchom bota
+        env:
+          TOKEN: ${{ secrets.TOKEN }}
+          GUILD_ID: ${{ secrets.GUILD_ID }}
+        run: npm start
