@@ -1,0 +1,12 @@
+{
+  "name": "sw-set-bot",
+  "version": "1.0.0",
+  "description": "Bot konfiguracyjny Służby Więziennej RP",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.25.1"
+  }
+}
