@@ -1,0 +1,11 @@
+{
+  "channelId": null,
+  "messageId": null,
+  "title": "🛡️ SŁUŻBA WIĘZIENNA",
+  "description": "Lista funkcjonariuszy Służby Więziennej.",
+  "sections": {
+    "szefostwo": [],
+    "pracownicy": [],
+    "rekruci": []
+  }
+}
