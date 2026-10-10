@@ -1,14 +1,14 @@
 {
-  "name": "sw-dokumenty-bot",
+  "name": "sw-polaczony-bot",
   "version": "1.0.0",
-  "description": "Bot Discord do dokumentów służbowych Służby Więziennej",
+  "description": "Połączony bot Discord Służby Więziennej: kadry, stopnie, raporty, wypłaty, osadzeni, tickety i dokumenty.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "discord.js": "^14.21.0",
-    "dotenv": "^16.6.1"
+    "discord.js": "^14.25.1",
+    "dotenv": "^17.2.3"
   },
   "engines": {
     "node": ">=18.17.0"
